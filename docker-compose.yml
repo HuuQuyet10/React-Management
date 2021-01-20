@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+
+  quanlykhohang_frontend:
+    container_name: quanlykhohang_frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production

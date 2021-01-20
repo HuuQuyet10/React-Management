@@ -1,0 +1,15 @@
+.co-quan-quan-ly {
+    // display: flex;
+    align-items: center;
+    .item {
+        display: inline-block;
+        padding: 3px 10px;
+        margin-left: 5px;
+        background: linear-gradient(90deg,#1b75bb,#26a9e0),rgba(0,0,0,.05);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 6px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+}
